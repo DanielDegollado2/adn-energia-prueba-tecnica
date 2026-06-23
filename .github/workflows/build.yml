@@ -25,16 +25,16 @@ jobs:
             "ConnectionStrings": {
               "DefaultConnection": "${{ secrets.CONNECTION_STRING }}"
             }
-          }' > appsettings.json
+          }' > SistemaPesaje/appsettings.json
 
       - name: Restaurar paquetes NuGet
-        run: dotnet restore SistemaPesaje.csproj
+        run: dotnet restore SistemaPesaje/SistemaPesaje.csproj
 
       - name: Compilar
-        run: dotnet build SistemaPesaje.csproj --configuration Release --no-restore
+        run: dotnet build SistemaPesaje/SistemaPesaje.csproj --configuration Release --no-restore
 
       - name: Publicar
-        run: dotnet publish SistemaPesaje.csproj --configuration Release --output ./publish --no-restore
+        run: dotnet publish SistemaPesaje/SistemaPesaje.csproj --configuration Release --output ./publish --no-restore
 
       - name: Subir artifact
         uses: actions/upload-artifact@v4
