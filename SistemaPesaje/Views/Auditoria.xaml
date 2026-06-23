@@ -25,30 +25,37 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
+        <TextBlock Text="Auditoría de pesaje" 
+           Grid.Row="0" 
+           Margin="10" 
+           FontSize="16" 
+           FontWeight="Bold"/>
+        
         <!-- Placa -->
-        <TextBlock Grid.Row="0" Grid.Column="0" Text="Placa:" FontWeight="Bold" Margin="0,0,10,8"/>
-        <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding PlacaTracto}" Margin="0,0,0,8"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Placa:" FontWeight="Bold" Margin="0,0,10,8"/>
+        <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding PlacaTracto}" Margin="0,0,0,8"/>
 
         <!-- Conductor -->
-        <TextBlock Grid.Row="1" Grid.Column="0" Text="Conductor:" FontWeight="Bold" Margin="0,0,10,8"/>
-        <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding NombreConductor}" Margin="0,0,0,8"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Conductor:" FontWeight="Bold" Margin="0,0,10,8"/>
+        <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding NombreConductor}" Margin="0,0,0,8"/>
 
         <!-- Peso Teórico ERP -->
-        <TextBlock Grid.Row="2" Grid.Column="0" Text="Peso Teórico ERP:" FontWeight="Bold" Margin="0,0,10,8"/>
-        <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding PesoTeoricoERP}" Margin="0,0,0,8"/>
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="Peso Teórico ERP:" FontWeight="Bold" Margin="0,0,10,8"/>
+        <TextBlock Grid.Row="3" Grid.Column="1" Text="{Binding PesoTeoricoERP}" Margin="0,0,0,8"/>
 
         <!-- Peso Bascula Salida -->
-        <TextBlock Grid.Row="3" Grid.Column="0" Text="Peso Bascula Salida:" FontWeight="Bold" Margin="0,0,10,8"/>
-        <TextBox  Grid.Row="3" Grid.Column="1" Text="{Binding PesoBasculaSalidaTexto, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" Text="Peso Bascula Salida:" FontWeight="Bold" Margin="0,0,10,8"/>
+        <TextBox  Grid.Row="4" Grid.Column="1" Text="{Binding PesoBasculaSalidaTexto, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap"/>
 
         <!-- Peso Neto Real -->
-        <TextBlock Grid.Row="4" Grid.Column="0" Text="Peso Neto Real:" FontWeight="Bold" Margin="0,0,10,8"/>
-        <TextBlock Grid.Row="4" Grid.Column="1" Text="{Binding PesoNetoReal}" Margin="0,0,0,8"/>
+        <TextBlock Grid.Row="5" Grid.Column="0" Text="Peso Neto Real:" FontWeight="Bold" Margin="0,0,10,8"/>
+        <TextBlock Grid.Row="5" Grid.Column="1" Text="{Binding PesoNetoReal}" Margin="0,0,0,8"/>
 
         <!-- Justificación Diferencia -->
-        <TextBlock Grid.Row="5" Grid.Column="0" Text="Justificacion diferencia de peso:" FontWeight="Bold" Margin="0,0,10,8" 
+        <TextBlock Grid.Row="6" Grid.Column="0" Text="Justificacion diferencia de peso:" FontWeight="Bold" Margin="0,0,10,8" 
                    TextWrapping="Wrap" Visibility="{Binding RequiereJustificacion, Converter={StaticResource BoolToVisibilityConverter}}"/>
         <TextBox Grid.Row="5" Grid.Column="1" Text="{Binding JustificacionDiferencia, UpdateSourceTrigger=PropertyChanged}"
          AcceptsReturn="True"
@@ -58,13 +65,14 @@
          Visibility="{Binding RequiereJustificacion, Converter={StaticResource BoolToVisibilityConverter}}"/>
 
         <!-- Botón Regresar -->
-        <Button Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="1"
+        <Button Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="1"
             Content="Regresar" 
             Command="{Binding RegresarCommand}"
             Margin="10,10,10,10"
             HorizontalAlignment="Left"/>
 
-        <Button Grid.Row="6" Grid.Column="1"
+        <!-- Botón autorizar salida -->
+        <Button Grid.Row="7" Grid.Column="1"
             Content="Autorizar Salida" 
             Command="{Binding ActualizarSalidaCommand}"
             Margin="10,10,10,10"

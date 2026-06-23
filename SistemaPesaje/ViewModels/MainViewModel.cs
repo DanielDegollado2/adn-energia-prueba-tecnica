@@ -1,17 +1,23 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Messaging;
 using SistemaPesaje.Messages;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SistemaPesaje.ViewModels
 {
     public partial class MainViewModel : ObservableObject
     {
+        /// <summary>
+        /// ObservableProperty que guarda la pantalla actual
+        /// </summary>
         [ObservableProperty]
         private object vistaActual;
 
+        /// <summary>
+        /// Inicializa la vista actual con DashboardViewModel
+        /// Registra MainViewModel para poder recibir mensajes de tipo
+        /// SalidaSeleccionadaMessage y NavegarDashboardMessage,
+        /// al recibirlos se encarga de mostrar la pantalla correspondiente
+        /// </summary>
         public MainViewModel()
         {
             VistaActual = new DashboardViewModel();
@@ -23,7 +29,6 @@ namespace SistemaPesaje.ViewModels
 
             WeakReferenceMessenger.Default.Register<MainViewModel, NavegarDashboardMessage>(this, (r, m) =>
             {
-                var dashboardViewModel = new DashboardViewModel();
                 r.VistaActual = new DashboardViewModel();
             });
         }

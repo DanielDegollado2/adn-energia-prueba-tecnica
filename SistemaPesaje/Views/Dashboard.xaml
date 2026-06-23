@@ -21,6 +21,7 @@
                    FontSize="16" 
                    FontWeight="Bold"/>
 
+        <!-- DataGrid con las salidas pendientes -->
         <DataGrid Grid.Row="1"
           ItemsSource="{Binding SalidasPendientes}"
           SelectedItem="{Binding SalidaSeleccionada}"

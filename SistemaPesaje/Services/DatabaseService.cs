@@ -1,17 +1,24 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Data.SqlClient;
 using SistemaPesaje.Models;
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Text;
 
 namespace SistemaPesaje.Services
 {
+    /// <summary>
+    /// Servicio de acceso a datos para la tabla Salidas.
+    /// Maneja la conexión a SQL Server y la ejecución de Stored Procedures.
+    /// </summary>
     public class DatabaseService
     {
         private readonly string _connectionString;
 
+        /// <summary>
+        /// Inicializa el servicio cargando la cadena de conexión desde appsettings.json.
+        /// </summary>
+        /// <exception cref="InvalidOperationException">
+        /// Se lanza si no se encuentra la cadena de conexión 'DefaultConnection' en appsettings.json.
+        /// </exception>
         public DatabaseService()
         {
             var config = new ConfigurationBuilder()
@@ -22,7 +29,10 @@ namespace SistemaPesaje.Services
             _connectionString = config.GetConnectionString("DefaultConnection")
                 ?? throw new InvalidOperationException("No se encontró la cadena de conexión 'DefaultConnection' en appsettings.json.");
         }
-
+        /// <summary>
+        /// Ejecuta el stored procedure "usp_GetSalidasPendientes" y guarda el resultado en una lista de tipo Salida
+        /// </summary>
+        /// <returns>Lista de tipo Salida</returns>
         public async Task<List<Salida>> GetSalidasPendientesAsync()
         {
             var salidas = new List<Salida>();
@@ -53,6 +63,15 @@ namespace SistemaPesaje.Services
             return salidas;
         }
 
+        /// <summary>
+        /// Ejecuta el stored procedure "usp_UpdateSalidas" para registrar la autorización 
+        /// de salida de un camión, actualizando el peso de báscula, peso neto real, 
+        /// justificación de diferencia y fecha/hora de salida.
+        /// </summary>
+        /// <param name="id">ID del registro a actualizar.</param>
+        /// <param name="pesoBasculaSalida">Peso registrado en báscula al momento de salida.</param>
+        /// <param name="pesoNetoReal">Peso neto calculado (PesoBasculaSalida - PesoTara).</param>
+        /// <param name="justificacionDiferencia">Justificación requerida si la diferencia supera el 3%.</param>
         public async Task AutorizarSalidaAsync(int id, decimal pesoBasculaSalida, decimal pesoNetoReal, string? justificacionDiferencia)
         {
             using var connection = new SqlConnection(_connectionString);

@@ -74,3 +74,4 @@ C:\Users\danie\source\repos\SistemaPesaje\SistemaPesaje\obj\Debug\net10.0-window
 C:\Users\danie\source\repos\SistemaPesaje\SistemaPesaje\obj\Debug\net10.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\danie\source\repos\SistemaPesaje\SistemaPesaje\obj\Debug\net10.0-windows\Views\MainWindow.baml
 C:\Users\danie\source\repos\SistemaPesaje\SistemaPesaje\obj\Debug\net10.0-windows\SistemaPesaje_Content.g.cs
+C:\Users\danie\source\repos\SistemaPesaje\SistemaPesaje\obj\Debug\net10.0-windows\SistemaPesaje.sourcelink.json
