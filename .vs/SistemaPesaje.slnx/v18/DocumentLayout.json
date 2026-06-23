@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\danie\\source\\repos\\SistemaPesaje\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41391FFB-EDB8-A884-88E4-37EC4FAC593F}|SistemaPesaje\\SistemaPesaje.csproj|c:\\users\\danie\\source\\repos\\sistemapesaje\\sistemapesaje\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{41391FFB-EDB8-A884-88E4-37EC4FAC593F}|SistemaPesaje\\SistemaPesaje.csproj|solutionrelative:sistemapesaje\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41391FFB-EDB8-A884-88E4-37EC4FAC593F}|SistemaPesaje\\SistemaPesaje.csproj|c:\\users\\danie\\source\\repos\\sistemapesaje\\sistemapesaje\\views\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{41391FFB-EDB8-A884-88E4-37EC4FAC593F}|SistemaPesaje\\SistemaPesaje.csproj|solutionrelative:sistemapesaje\\views\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{41391FFB-EDB8-A884-88E4-37EC4FAC593F}|SistemaPesaje\\SistemaPesaje.csproj|c:\\users\\danie\\source\\repos\\sistemapesaje\\sistemapesaje\\views\\auditoria.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{41391FFB-EDB8-A884-88E4-37EC4FAC593F}|SistemaPesaje\\SistemaPesaje.csproj|solutionrelative:sistemapesaje\\views\\auditoria.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -19,12 +11,24 @@
       "RelativeMoniker": "D:0:0:{41391FFB-EDB8-A884-88E4-37EC4FAC593F}|SistemaPesaje\\SistemaPesaje.csproj|solutionrelative:sistemapesaje\\viewmodels\\auditoriaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41391FFB-EDB8-A884-88E4-37EC4FAC593F}|SistemaPesaje\\SistemaPesaje.csproj|c:\\users\\danie\\source\\repos\\sistemapesaje\\sistemapesaje\\messages\\navegardashboardmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41391FFB-EDB8-A884-88E4-37EC4FAC593F}|SistemaPesaje\\SistemaPesaje.csproj|solutionrelative:sistemapesaje\\messages\\navegardashboardmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{41391FFB-EDB8-A884-88E4-37EC4FAC593F}|SistemaPesaje\\SistemaPesaje.csproj|c:\\users\\danie\\source\\repos\\sistemapesaje\\sistemapesaje\\messages\\salidaseleccionadamessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41391FFB-EDB8-A884-88E4-37EC4FAC593F}|SistemaPesaje\\SistemaPesaje.csproj|solutionrelative:sistemapesaje\\messages\\salidaseleccionadamessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41391FFB-EDB8-A884-88E4-37EC4FAC593F}|SistemaPesaje\\SistemaPesaje.csproj|c:\\users\\danie\\source\\repos\\sistemapesaje\\sistemapesaje\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{41391FFB-EDB8-A884-88E4-37EC4FAC593F}|SistemaPesaje\\SistemaPesaje.csproj|solutionrelative:sistemapesaje\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41391FFB-EDB8-A884-88E4-37EC4FAC593F}|SistemaPesaje\\SistemaPesaje.csproj|c:\\users\\danie\\source\\repos\\sistemapesaje\\sistemapesaje\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{41391FFB-EDB8-A884-88E4-37EC4FAC593F}|SistemaPesaje\\SistemaPesaje.csproj|solutionrelative:sistemapesaje\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41391FFB-EDB8-A884-88E4-37EC4FAC593F}|SistemaPesaje\\SistemaPesaje.csproj|c:\\users\\danie\\source\\repos\\sistemapesaje\\sistemapesaje\\views\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{41391FFB-EDB8-A884-88E4-37EC4FAC593F}|SistemaPesaje\\SistemaPesaje.csproj|solutionrelative:sistemapesaje\\views\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41391FFB-EDB8-A884-88E4-37EC4FAC593F}|SistemaPesaje\\SistemaPesaje.csproj|c:\\users\\danie\\source\\repos\\sistemapesaje\\sistemapesaje\\messages\\navegardashboardmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41391FFB-EDB8-A884-88E4-37EC4FAC593F}|SistemaPesaje\\SistemaPesaje.csproj|solutionrelative:sistemapesaje\\messages\\navegardashboardmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41391FFB-EDB8-A884-88E4-37EC4FAC593F}|SistemaPesaje\\SistemaPesaje.csproj|c:\\users\\danie\\source\\repos\\sistemapesaje\\sistemapesaje\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{41391FFB-EDB8-A884-88E4-37EC4FAC593F}|SistemaPesaje\\SistemaPesaje.csproj|c:\\users\\danie\\source\\repos\\sistemapesaje\\sistemapesaje\\views\\auditoria.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41391FFB-EDB8-A884-88E4-37EC4FAC593F}|SistemaPesaje\\SistemaPesaje.csproj|solutionrelative:sistemapesaje\\views\\auditoria.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41391FFB-EDB8-A884-88E4-37EC4FAC593F}|SistemaPesaje\\SistemaPesaje.csproj|c:\\users\\danie\\source\\repos\\sistemapesaje\\sistemapesaje\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{41391FFB-EDB8-A884-88E4-37EC4FAC593F}|SistemaPesaje\\SistemaPesaje.csproj|solutionrelative:sistemapesaje\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41391FFB-EDB8-A884-88E4-37EC4FAC593F}|SistemaPesaje\\SistemaPesaje.csproj|c:\\users\\danie\\source\\repos\\sistemapesaje\\sistemapesaje\\views\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,50 +86,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DashboardViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\SistemaPesaje\\SistemaPesaje\\ViewModels\\DashboardViewModel.cs",
-              "RelativeDocumentMoniker": "SistemaPesaje\\ViewModels\\DashboardViewModel.cs",
-              "ToolTip": "C:\\Users\\danie\\source\\repos\\SistemaPesaje\\SistemaPesaje\\ViewModels\\DashboardViewModel.cs",
-              "RelativeToolTip": "SistemaPesaje\\ViewModels\\DashboardViewModel.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAowAYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T01:39:04.573Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\SistemaPesaje\\SistemaPesaje\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "SistemaPesaje\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\danie\\source\\repos\\SistemaPesaje\\SistemaPesaje\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "SistemaPesaje\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T20:35:12.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NavegarDashboardMessage.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\SistemaPesaje\\SistemaPesaje\\Messages\\NavegarDashboardMessage.cs",
-              "RelativeDocumentMoniker": "SistemaPesaje\\Messages\\NavegarDashboardMessage.cs",
-              "ToolTip": "C:\\Users\\danie\\source\\repos\\SistemaPesaje\\SistemaPesaje\\Messages\\NavegarDashboardMessage.cs",
-              "RelativeToolTip": "SistemaPesaje\\Messages\\NavegarDashboardMessage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T22:56:26.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "SalidaSeleccionadaMessage.cs",
               "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\SistemaPesaje\\SistemaPesaje\\Messages\\SalidaSeleccionadaMessage.cs",
               "RelativeDocumentMoniker": "SistemaPesaje\\Messages\\SalidaSeleccionadaMessage.cs",
@@ -142,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Auditoria.xaml",
               "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\SistemaPesaje\\SistemaPesaje\\Views\\Auditoria.xaml",
               "RelativeDocumentMoniker": "SistemaPesaje\\Views\\Auditoria.xaml",
@@ -154,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "AuditoriaViewModel.cs",
               "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\SistemaPesaje\\SistemaPesaje\\ViewModels\\AuditoriaViewModel.cs",
               "RelativeDocumentMoniker": "SistemaPesaje\\ViewModels\\AuditoriaViewModel.cs",
@@ -167,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Dashboard.xaml",
               "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\SistemaPesaje\\SistemaPesaje\\Views\\Dashboard.xaml",
               "RelativeDocumentMoniker": "SistemaPesaje\\Views\\Dashboard.xaml",
@@ -179,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\SistemaPesaje\\SistemaPesaje\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "SistemaPesaje\\Views\\MainWindow.xaml",
@@ -190,16 +159,60 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\SistemaPesaje\\SistemaPesaje\\appsettings.json",
+              "RelativeDocumentMoniker": "SistemaPesaje\\appsettings.json",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\SistemaPesaje\\SistemaPesaje\\appsettings.json",
+              "RelativeToolTip": "SistemaPesaje\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-21T00:34:51.092Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NavegarDashboardMessage.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\SistemaPesaje\\SistemaPesaje\\Messages\\NavegarDashboardMessage.cs",
+              "RelativeDocumentMoniker": "SistemaPesaje\\Messages\\NavegarDashboardMessage.cs",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\SistemaPesaje\\SistemaPesaje\\Messages\\NavegarDashboardMessage.cs",
+              "RelativeToolTip": "SistemaPesaje\\Messages\\NavegarDashboardMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T22:56:26.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\SistemaPesaje\\SistemaPesaje\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "SistemaPesaje\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\SistemaPesaje\\SistemaPesaje\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "SistemaPesaje\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T20:35:12.014Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\SistemaPesaje\\SistemaPesaje\\ViewModels\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "SistemaPesaje\\ViewModels\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\SistemaPesaje\\SistemaPesaje\\ViewModels\\DashboardViewModel.cs",
+              "RelativeToolTip": "SistemaPesaje\\ViewModels\\DashboardViewModel.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T01:39:04.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Auditoria.xaml.cs",
               "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\SistemaPesaje\\SistemaPesaje\\Views\\Auditoria.xaml.cs",
               "RelativeDocumentMoniker": "SistemaPesaje\\Views\\Auditoria.xaml.cs",
@@ -208,19 +221,6 @@
               "ViewState": "AgIAAA0AAAAAAAAAAAAiwBoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-22T08:38:52.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\SistemaPesaje\\SistemaPesaje\\appsettings.json",
-              "RelativeDocumentMoniker": "SistemaPesaje\\appsettings.json",
-              "ToolTip": "C:\\Users\\danie\\source\\repos\\SistemaPesaje\\SistemaPesaje\\appsettings.json",
-              "RelativeToolTip": "SistemaPesaje\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-21T00:34:51.092Z",
               "EditorCaption": ""
             },
             {

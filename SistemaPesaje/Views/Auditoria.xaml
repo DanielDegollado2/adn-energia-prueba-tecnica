@@ -57,7 +57,7 @@
         <!-- Justificación Diferencia -->
         <TextBlock Grid.Row="6" Grid.Column="0" Text="Justificacion diferencia de peso:" FontWeight="Bold" Margin="0,0,10,8" 
                    TextWrapping="Wrap" Visibility="{Binding RequiereJustificacion, Converter={StaticResource BoolToVisibilityConverter}}"/>
-        <TextBox Grid.Row="5" Grid.Column="1" Text="{Binding JustificacionDiferencia, UpdateSourceTrigger=PropertyChanged}"
+        <TextBox Grid.Row="6" Grid.Column="1" Text="{Binding JustificacionDiferencia, UpdateSourceTrigger=PropertyChanged}"
          AcceptsReturn="True"
          TextWrapping="Wrap"
          Height="80"
