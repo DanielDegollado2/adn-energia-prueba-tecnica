@@ -428,5 +428,5 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
-appsettings.json
-!appsettings.example.json
+**/appsettings.json
+!**/appsettings.example.json
