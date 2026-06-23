@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="SistemaPesaje.Views.Dashboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SistemaPesaje.Views"
+        xmlns:vm="clr-namespace:SistemaPesaje.ViewModels"
+        mc:Ignorable="d"
+        d:DataContext="{d:DesignInstance Type=vm:DashboardViewModel}"
+        Loaded="Window_Loaded">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Camiones pendientes de pesaje" 
+                   Grid.Row="0" 
+                   Margin="10" 
+                   FontSize="16" 
+                   FontWeight="Bold"/>
+
+        <DataGrid Grid.Row="1"
+          ItemsSource="{Binding SalidasPendientes}"
+          SelectedItem="{Binding SalidaSeleccionada}"
+          AutoGenerateColumns="False"
+          IsReadOnly="True"
+          SelectionMode="Single"
+          MouseDoubleClick="ListViewItem_MouseDoubleClick"
+   
+          GridLinesVisibility="Horizontal"
+          BorderThickness="0">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Folio" Binding="{Binding FolioDespacho}" Width="*"/>
+                <DataGridTextColumn Header="Centro Operativo" Binding="{Binding CentroOperativo}" Width="*"/>
+                <DataGridTextColumn Header="Placa" Binding="{Binding PlacaTracto}" Width="*"/>
+                <DataGridTextColumn Header="Conductor" Binding="{Binding NombreConductor}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+
+</UserControl>

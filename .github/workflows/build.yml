@@ -1,0 +1,43 @@
+﻿name: Build y Publish WPF
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+
+      - name: Instalar .NET 10
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Crear appsettings.json
+        run: |
+          echo '{
+            "ConnectionStrings": {
+              "DefaultConnection": "${{ secrets.CONNECTION_STRING }}"
+            }
+          }' > appsettings.json
+
+      - name: Restaurar paquetes NuGet
+        run: dotnet restore SistemaPesaje.csproj
+
+      - name: Compilar
+        run: dotnet build SistemaPesaje.csproj --configuration Release --no-restore
+
+      - name: Publicar
+        run: dotnet publish SistemaPesaje.csproj --configuration Release --output ./publish --no-restore
+
+      - name: Subir artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: SistemaPesaje-Release
+          path: ./publish
